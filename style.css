@@ -1,0 +1,194 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+/*---------------------------------*/
+/* INTRODUCTION PART*/
+/*----------------------------------*/
+/*----------------LINKS-------------*/
+.header-links{
+    float: right;
+    margin-top: 4.5%;
+    margin-right: 12%;
+}
+.header-links a{
+    padding: 15px;
+    font-size: 20px;
+    text-decoration: none;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(247, 68, 166);
+}
+.header-links a:hover,a:active{
+    color: rgb(133, 34, 88);
+    text-decoration: underline;
+}
+a{
+    border-bottom: 2px transparent;
+}
+
+
+#odd:hover{
+    color: rgb(133, 34, 88);
+}
+/*---------- LINKS -------------------*/
+/*----------BACKGROUND AND HEADINGS----------*/
+header{
+    background-color:rgb(245, 245, 245);
+}
+h1,h3{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-left: 2%;
+}
+h1{
+    font-size: 70px;
+}
+h3{
+    font-size: 15px ;
+}
+/*----------BACKGROUND AND HEADINGS----------*/
+/*--------------IMAGES---------------*/
+.cartoon-guy{
+    margin-left: 12%;
+    width: 10%;
+    height: 10%;
+    margin-top: 1%;
+    border-radius: 50%;
+}
+.cloud-1{
+    margin-left: 70%;
+    
+}
+.cloud-2{
+    margin-left: 18%;
+    
+}
+.mountains{
+    margin-left: 33%;
+
+    width: 35%;
+    margin-top: 0.2%;
+}
+/*------------IMAGES--------------*/
+/*-----------------------------------*/
+/* INTRODUCTION
+/*-------------------------------------*/
+.introduction{
+    text-align: center;
+    margin-top: 6%;
+    background-color: white;
+}
+.introduction img{
+    border-radius: 60%;
+    width: 15%;
+}
+.introduction h3{
+    font-size: 250%;
+}
+.introduction p{
+    margin-left: 32%;
+    margin-right: 32%;
+    font-size: 20px;
+    line-height: 140%;
+    font-weight: 500;
+    letter-spacing: 2px;
+}
+
+/*---------------------*/
+/* WHAT I CAN DO SECTION */
+/*------------------------*/
+.abilities{
+    background-color: rgb(255, 240, 242);
+}
+.abilities h1{
+    margin-top: 15%;
+    padding-top: 40px;
+}
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 400px;
+    text-align: center;
+    margin-top: 9%;
+}
+.column h3{
+    font-size: 22px;
+}
+.column img{
+    border-radius: 100%;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+.column p{
+    margin-right: 30%;
+    margin-left: 30%;
+    line-height: 140%;
+    letter-spacing: 1px;
+    font-size: 15px;
+    padding-top: 10px;
+}
+#eye{
+    width: 20%;
+}
+#boy{
+    width:20%;
+}
+#card{
+    width: 20%;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+/*------------------------*/
+/* END*/
+/*-------------------------*/
+.end{
+    text-align:center;
+    margin-top: 13%;
+}
+.end h3{
+    padding: 2%;
+    margin-right: 2%;
+    font-size: 20px;
+}
+.end p{
+    margin-right: 40%;
+    margin-left: 40%;
+    margin-bottom: 4%;
+    letter-spacing: 1px;
+    line-height: 140%;
+}
+.end a{
+    padding: 10px 20px 10px 20px;
+    width: 4%;
+    text-decoration: none;
+    border: 1px solid rgb(255, 240, 242);
+    background-color: rgb(255, 240, 242);
+    color: black;
+    border-radius: 5%;
+}
+#message-btn{
+    background-color: palevioletred;
+}
+/*----------------------------------*/
+/*FOOTER*/
+/*----------------------------------*/
+footer{
+    background-color:  rgb(255, 240, 242);
+    padding-top: 5%;
+    padding-bottom: 2%;
+    margin-top: 8%;
+    margin-bottom: 0%;
+}
+footer a{
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Dancing Script', cursive;
+}
+footer a:active, a:hover{
+    color: rgb(173, 173, 72);
+}
