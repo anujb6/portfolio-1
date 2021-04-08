@@ -13,6 +13,7 @@
     margin-right: 12%;
 }
 .header-links a{
+    display: inline-block;
     padding: 15px;
     font-size: 20px;
     text-decoration: none;
@@ -21,7 +22,8 @@
 }
 .header-links a:hover,a:active{
     color: rgb(133, 34, 88);
-    text-decoration: underline;
+    transform:scale(1.1,1.1);
+
 }
 a{
     border-bottom: 2px transparent;
@@ -34,7 +36,7 @@ a{
 /*---------- LINKS -------------------*/
 /*----------BACKGROUND AND HEADINGS----------*/
 header{
-    background-color:rgb(245, 245, 245);
+  background-color: rgb(250, 241, 235);
 }
 h1,h3{
     font-family: 'Dancing Script', cursive;
@@ -50,19 +52,22 @@ h3{
 /*----------BACKGROUND AND HEADINGS----------*/
 /*--------------IMAGES---------------*/
 .cartoon-guy{
+    cursor: pointer;
     margin-left: 12%;
     width: 10%;
     height: 10%;
     margin-top: 1%;
     border-radius: 50%;
 }
+.cartoon-guy:hover{
+    transform: scale(1.1, 1.1);
+}
 .cloud-1{
     margin-left: 70%;
-    
 }
 .cloud-2{
     margin-left: 18%;
-    
+    margin-top: 2%;
 }
 .mountains{
     margin-left: 33%;
@@ -87,11 +92,12 @@ h3{
     font-size: 250%;
 }
 .introduction p{
+    margin-top: 1%;
     margin-left: 32%;
     margin-right: 32%;
     font-size: 20px;
     line-height: 140%;
-    font-weight: 500;
+    font-weight: 600;
     letter-spacing: 2px;
 }
 
@@ -128,6 +134,7 @@ h3{
     letter-spacing: 1px;
     font-size: 15px;
     padding-top: 10px;
+    font-weight: 600;
 }
 #eye{
     width: 20%;
@@ -191,4 +198,27 @@ footer a{
 }
 footer a:active, a:hover{
     color: rgb(173, 173, 72);
+}
+
+/*------------ Animations --------------*/
+.clouds-1,.clouds-2{
+    width: 100%;
+}
+.cloud-1{
+    -webkit-animation: leftcloud 25s linear infinite;
+	-moz-animation: leftcloud 25s linear infinite;
+	-o-animation: leftcloud 25s linear infinite;
+}
+.cloud-2{
+    -webkit-animation: rightcloud 25s linear infinite;
+	-moz-animation: rightcloud 25s linear infinite;
+	-o-animation: rightcloud 25s linear infinite;
+}
+@keyframes rightcloud {
+	0% {margin-left: 0%;}
+	100% {margin-left: 100%;}
+}
+@keyframes leftcloud {
+	0% {margin-left: 100%;}
+	100% {margin-left: 0%;}
 }
